@@ -1,0 +1,78 @@
+<!--Anthony Smith
+SDEV 300
+Lab 6
+This HTML page is a tribute to Col. John
+Glenn. He was one of the United states firt astronaughts -->
+
+<!--
+initiate main element and link html to css styles sheet
+-->
+<main id="main">
+<head><link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<title>Tribute to Col. Glenn</title>
+<!--
+create headline and insert picture and caption
+-->
+  <h1 id="title">Col. John Glenn</h1>
+  <h2>First person to orbit the Earth</h2>
+  <p>Welcome to our tribute page to Col. John Glenn.</p>
+  <figure id="img-div">
+    <img
+            id="image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/JohnGlenn.jpg/800px-JohnGlenn.jpg"
+            alt="John Glenn in space suit"/>
+    <figcaption id="img-caption">
+      Col. John Glenn was a test pilot and an astronaut who was the first man to orbit the Earth.
+    </figcaption>
+  </figure>
+  <tribinfo id="tribute-info">
+    <h3 id="headline">
+      Here are some of the Colonel's accomplishments:
+    </h3>
+    </head>
+      <ol type="1">
+        <li>Born in 1921 Cambridge, Ohio</li>
+        <li>Elected Senator of Ohio in 1974</li>
+        <li>Veteran of World War II, The Chinese Civil War and Vietnam</li>
+        <!--
+        create ordered and unordered list with facts about John Glenn
+        -->
+    </ol>
+    <ul>
+      <li><strong>1942</strong>-Enlisted as a Navy Aviation Cadet</li>
+      <li><strong>1943</strong>-Promoted to First Lieutenant and joined Marine Corps</li>
+      <li><strong>1953</strong>-Sent to Korea to fly F-86 Sabre on combat missions</li>
+      <li><strong>1954</strong>-Became a test pilot and reported to the U.S Naval Test Pilot School in Maryland</li>
+      <li><strong>1956-59</strong>-Assigned to the Fighter Design Branch of the Navy Bureau of Aeronautics and attended the University of Maryland</li>
+      <li><strong>1957</strong>-Made the first supersonic transcontinental flight</li>
+      <li><strong>1959</strong>-Promoted to Lieutenant Colonel</li>
+      <li><strong>1959</strong>-John Glenn and 6 others join NASA as astronauts</li>
+      <li><strong>1962</strong>-Is on the crew of Friendship Flight, the first manned mission to orbit the Earth</li>
+      <li><strong>1964</strong>-Ran and lost a campaign for US Senate in Ohio</li>
+      <li><strong>1965</strong>-Becomes the VP of Corporate Relations at RC cola</li>
+      <li><strong>1970</strong>-Narrowly loses Democratic primary for the US Senate in Ohio</li>
+      <li><strong>1976-1999</strong>-John Glenn is elected to the US Senate from Ohio</li>
+      <li><strong>1998</strong>Glenn returned to space on the Space Shuttle on October 29, 1998, as a payload specialist on Space Shuttle Discovery</li>
+      <li><strong>2012</strong>-Received the Presidential Medal of Freedom</li>
+      <li><strong>2016</strong>-John Glenn dies on December 8, 2016, at the OSU Wexner Medical Center at 95 years old. No cause of death was disclosed.</li>
+    </ul>
+    
+    <!--
+    links to outside sites
+    -->
+    <h4><strong>Sources and external resources:</strong></h4>
+  
+    <li><a id="tribute-link"
+       href="https://www.senate.gov/artandhistory/history/common/generic/Featured_Bio_Glenn.htm"
+       target= "_blank">Senate Profile</a></li>
+    <li><a id="tribute-link2"
+       href="https://www.nasa.gov/content/profile-of-john-glenn"
+       target= "_blank">NASA profile</a></li>
+    <li><a id="tribute-link3"
+       href="https://en.wikipedia.org/wiki/John_Glenn"
+       target= "_blank">Wikipedia page</a></li>   
+
+  </tribinfo>
+  
+  
+</main>
